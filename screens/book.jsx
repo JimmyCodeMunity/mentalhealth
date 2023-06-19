@@ -44,7 +44,7 @@ const BookingPage = ({navigation,route}) => {
   }
   else{
     // Send the booking data to your API endpoint
-    fetch('https://www.tangaraschools.org/api/mentbooking.php', {
+    fetch('https://www.mentheal.co.ke/api/mentbooking.php', {
       method: 'POST',
       body: JSON.stringify(bookingData),
       headers: {

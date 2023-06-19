@@ -28,7 +28,7 @@ function Landing({navigation,route}){
       }, []);
     
       const fetchData = () => {
-        fetch('https://www.tangaraschools.org/api/fetchuser.php') // Update the URL if needed
+        fetch('https://www.mentheal.co.ke/api/fetchuser.php') // Update the URL if needed
           .then((response) => response.json())
           .then((data) => {
             const filteredNames = data.filter((item) => item.Email === Username);

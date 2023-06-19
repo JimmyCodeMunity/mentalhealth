@@ -33,7 +33,7 @@ const Doctors = ({navigation,route}) => {
 
   const fetchData = () => {
     setIsRefreshing(true);
-    fetch('https://www.tangaraschools.org/api/collect.php')
+    fetch('https://www.mentheal.co.ke/api/collect.php')
       .then((response) => response.json())
       .then((json) => {
         setData(json);

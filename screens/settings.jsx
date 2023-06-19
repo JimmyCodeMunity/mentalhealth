@@ -52,7 +52,7 @@ const Settings = ({ route }) => {
 
   const handleShare = () => {
     const message = "Share this Awesome App!!";
-    const url = "https://www.jimmy.tangaraschools.org";
+    const url = "https://www.mentheal.co.ke";
 
     Share.share({
       message: message,

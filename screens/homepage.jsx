@@ -21,7 +21,7 @@ const Homepage = () => {
       <View style={styles.container}>
       <View style={styles.homepage}>
         <View style={styles.logo}>
-        <Image source={require('../assets/mentlogo.jpeg')} />
+        <Image source={require('../assets/mentlogo.png')} />
         </View>
         <AnimatedLoader style={styles.animation}
       visible={visible}

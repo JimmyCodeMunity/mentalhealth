@@ -47,7 +47,7 @@ const Loginpage = ({ navigation }) => {
 
     setLoading(true);
     try {
-      const response = await fetch('https://www.tangaraschools.org/api/loginauth.php', {
+      const response = await fetch('https://www.mentheal.co.ke/api/loginauth.php', {
         method: 'POST',
         headers: {
           Accept: 'application/json',

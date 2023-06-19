@@ -38,7 +38,7 @@ const Bookings = ({navigation,route}) => {
 
   const fetchData = () => {
     setIsRefreshing(true);
-    fetch('https://www.tangaraschools.org/api/bookings.php')
+    fetch('https://www.mentheal.co.ke/api/bookings.php')
       .then((response) => response.json())
       .then((json) => {
         setData(json);

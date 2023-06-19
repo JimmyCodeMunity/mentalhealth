@@ -36,7 +36,7 @@ export default class RegisterPage extends Component {
             alert("Required Field is missing");
         }
         else{
-            var InsertAPIURL="https://www.tangaraschools.org/api/menthealreg.php";
+            var InsertAPIURL="https://www.mentheal.co.ke/api/menthealreg.php";
 
             var headers = {
                 'Accept':'application/json',

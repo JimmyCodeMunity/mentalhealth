@@ -2,7 +2,7 @@
   "expo": {
     "name": "Mentheal App",
     "slug": "mentheal",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "orientation": "portrait",
     "icon": "./assets/logo.png",
     "userInterfaceStyle": "light",
@@ -15,18 +15,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.menthealventures.mentheal"
     },
     "android": {
-      "package":"com.menthealventures.mentheal",
-      "versionCode": 1,
+      "package": "com.menthealventures.mentheal",
+      "versionCode": 2,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        //"backgroundColor ": "#ffffff"
+        "foregroundImage": "./assets/adaptive-icon.png"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b9cd7297-5e78-4b3f-aa4c-fb5587f6d834"
+      }
     }
   }
 }
